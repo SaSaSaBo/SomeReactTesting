@@ -1,0 +1,74 @@
+.upc {
+    width: 350px;
+    margin: 20px auto; /* Kartı yatay olarak ortalar */
+    border-radius: 4px;
+    padding-bottom: 20px;
+    background-color: #dbdbdb;
+    text-align: center; /* Tüm içeriği yatay olarak ortalar */
+}
+
+.gradiant {
+    background-image: linear-gradient(#fffb91, #fff020);
+    height: 125px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.gradiant2 {
+    background-image: linear-gradient(#91deff, #20adff);
+    height: 125px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.profile-down {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Tüm öğeleri dikey olarak ortalar */
+    justify-content: center;
+    margin-top: -75px;
+}
+
+.profile-down img {
+    height: 150px;
+    border-radius: 100px;
+    padding: 5px;
+    background: #fff;
+}
+
+.profile-title {
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.profile-description {
+    padding: 20px;
+    font-size: 16px;
+    text-align: center; /* Metni ortalar */
+}
+
+.profile-button {
+    font-size: 16px;
+    background: #edff2b;
+    margin: 10px auto; /* Butonu yatay olarak ortalar */
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 40px;
+}
+
+.profile-button2 {
+    font-size: 16px;
+    background: #2ba0ff;
+    margin: 10px auto; /* Butonu yatay olarak ortalar */
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
